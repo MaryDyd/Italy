@@ -87,6 +87,23 @@ a {
   display: flex;
   align-items: center;
 }
+@media (max-width: 1200px) {
+  .custom-menu-list {
+    display: block !important;
+    margin-bottom: 12px;
+  }
+  .custom-menu-item{
+    padding: 0 0 0 10px !important;
+  }
+  .custom-menu-items:not(:nth-last-child(-n + 1)){
+    padding: 0 0 12px 0 !important;
+  }
+}
+@media (max-width: 800px){
+  .logo-heder{
+    margin-right: 50px !important;
+  }
+}
 /* модальне меню */
 .modal-header {
   border-bottom-width: 0px !important;
