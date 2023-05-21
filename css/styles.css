@@ -79,6 +79,10 @@ a {
 .menu-indent {
   padding-right: 25px !important;
 }
+.menu-trans:hover,
+.menu-trans:focus {
+  color: #404bbf !important;
+}
 .menu-write {
   display: flex;
   align-items: center;
@@ -257,8 +261,12 @@ textarea {
   border: 1px solid #8e8f99;
   border-radius: 4px;
 }
-.сustom-border:hover,
-:focus {
+.custom-border:hover,
+.custom-border:focus {
+  border: 1px solid #404bbf;
+}
+.custom-country-color:hover,
+.custom-country-color:focus{
   color: #404bbf;
 }
 /* footer */
