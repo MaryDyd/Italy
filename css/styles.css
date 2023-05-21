@@ -225,7 +225,16 @@ textarea {
 .col-сountrys {
   margin-top: 0px !important;
 }
-@media (max-width: 1200px) {
+@media (min-width: 1200px) {
+  .row > .col-сountrys {
+    width: 16.66%;
+
+  }
+  .row > .col-сountrys {
+    margin-bottom: 0px;
+  }
+}
+@media (min-width: 750px) and (max-width: 1199px) {
   .row > .col-сountrys {
     width: 33.33%;
     display: flex;
@@ -236,9 +245,12 @@ textarea {
     margin-bottom: 72px;
   }
 }
-@media (max-width: 768px) {
+@media (min-width: 371px) and (max-width: 749px) {
   .row > .col-сountrys {
     width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .row > .col-сountrys:not(:nth-last-child(-n + 2)) {
     margin-bottom: 72px;
